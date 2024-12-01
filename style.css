@@ -1,0 +1,27 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(96, 141, 141);
+  border: 2px solid black;
+  border-radius: 50%;
+  animation: spinouter 2s linear 0s infinite normal;
+  border-top: 20px solid red;
+  border-right: 20px solid rgb(55, 9, 240);
+  border-bottom: 20px solid rgb(7, 251, 11);
+  border-left: 20px solid rgb(226, 255, 6);
+  position: absolute;
+  top: 300px;
+  left: 700px;
+}
+div:hover {
+  background-color: rgb(171, 47, 47);
+}
+
+@keyframes spinouter {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
